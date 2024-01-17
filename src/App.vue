@@ -2,7 +2,7 @@
   <div id="main" :class="isDia ? 'day' : 'night'">
     <div class="container my-5" style="max-width: 400px; min-width: 360px">
       <h1 class="titulo text-center">Clima's</h1>
-      <form class="search-location" v-on:submit.prevent="getClima">
+      <form class="search-location" v-on:submit.prevent="getClima" v-on:focusout.prevent="getClima">
         <input
           type="text"
           class="form-control text-muted br-2 p-4 shadow-sm"
