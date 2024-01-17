@@ -1,0 +1,102 @@
+#main {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  .day {
+    background: linear-gradient(to bottom left, #f7e757, #ffffff);
+  }
+  .night {
+    background: linear-gradient(to bottom left, #4854a2, #3d3d3d);
+    color: white;
+  }
+  
+  .card {
+    color: white !important;
+  }
+
+  .titulo {
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  .titulo:hover {
+    letter-spacing: 1px;
+    transition: 0.3s;
+  }
+  
+  .br-2 {
+    border-radius: 2rem;
+  }
+
+  .fundo-card {
+    border-radius: 40px !important;
+    color: white;
+    background: linear-gradient(to bottom right, #707070, #434647);
+    text-shadow: 2px 2px 2px #707070;
+  }
+
+  .noite {
+    background: linear-gradient(to bottom right, #434343, #0b5b76) !important;
+  }
+
+  .ensolarado {
+    background: linear-gradient(to bottom right, #d2d2d2, #96d1ff) !important;
+  }
+
+  .chovendo {
+    background: linear-gradient(to bottom right, #434343, #3dceff) !important;
+  }
+
+  .nevando {
+    background: linear-gradient(to bottom right, #d2d2d2, #8be2ff) !important;
+  }
+
+  .nublado {
+    background: linear-gradient(to bottom right, #434343, #045871) !important;
+  }
+
+  .nome-cidade {
+    position: absolute;
+    width: 100%;
+  }
+  
+  .nome-cidade p {
+    font-weight: 400;
+    font-size: 16pt;
+  }
+  
+  .nome-cidade span {
+    position: relative;
+    top: -50px;
+    font-size: 40pt;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .temp span {
+    font-weight: 100;
+    font-size: 5em;
+    letter-spacing: -5px;
+    white-space: nowrap;
+  }
+  .card-mid {
+    line-height: 0.5;
+  }
+  
+  .card-bottom p {
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: -3px;
+  }
+  .card-bottom {
+    line-height: 0.5;
+  }
+  
+  .card-bottom span {
+    font-size: 12px;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    border-color: inherit;
+  }
